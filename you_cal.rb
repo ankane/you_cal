@@ -54,5 +54,5 @@ end
 
 you_cal = YouCal.new(ARGV[0])
 you_cal.dates.each do |date, label|
-  puts "#{label} : #{date.strftime("%Y-%m-%d")}"
+  puts "#{date.strftime("%Y-%m-%d")} : #{label}"
 end
